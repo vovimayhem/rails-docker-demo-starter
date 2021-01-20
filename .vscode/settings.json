@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": false,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    // =========================================================================
+    // These are hidden to prevent distracting on the file explorer...
+    // but feel free to remove these when demoing Docker features:
+    ".devcontainer": true,
+    ".vscode": true,
+    "docker-compose.yml": true,
+    "Dockerfile": true
+    // =========================================================================
+  },
+  "solargraph.autoformat": true,
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  "solargraph.useBundler": true
+}
